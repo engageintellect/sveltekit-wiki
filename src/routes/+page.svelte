@@ -1,4 +1,6 @@
-<div class="p-10 lg:max-w-[66%] xl:max-w-[80%] overflow-scroll flex flex-col gap-4">
+<div
+	class="p-10 lg:max-w-[66%] xl:max-w-[75%] 2xl:max-w-[80%] overflow-scroll flex flex-col gap-4 bg-neutral-900"
+>
 	<div>
 		Incididunt ullamco et sit aliquip. Commodo minim nulla eiusmod nostrud aliquip excepteur ipsum
 		tempor dolore sunt duis. Do enim id veniam amet proident incididunt tempor ipsum ad. Id laboris
