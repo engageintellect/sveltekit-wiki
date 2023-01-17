@@ -20,57 +20,134 @@
 			</div>
 		</div>
 
-		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
-		/>
-		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
-		/>
-		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'unverified', team: 'team a' }}
-		/>
-		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
-		/>
+		<div class="text-xl font-bold text-blue-500 text-center">Following</div>
+
 		<SideCard
 			data={{
-				title: 'Laboris non ut do tempor ipsum fugiat.',
+				title: 'Hello World',
+				author: 'Steve Jobs',
 				date: '2021-10-10',
 				status: 'verified',
 				team: 'team a'
 			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'draft', team: 'team b' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'draft', team: 'team a' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'unverified',
+				team: 'team a'
+			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'unverified', team: 'team a' }}
-		/>
-		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'updated', team: 'team b' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
 		/>
 		<SideCard
 			data={{
 				title: 'Laboris non ut do tempor ipsum fugiat.',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
+		/>
+		<div class="text-xl font-bold text-blue-500 text-center">Feed</div>
+		<SideCard
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'draft',
+				team: 'team b'
+			}}
+		/>
+		<SideCard
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'draft',
+				team: 'team a'
+			}}
+		/>
+		<SideCard
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'unverified',
+				team: 'team a'
+			}}
+		/>
+		<SideCard
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
 				date: '2021-10-10',
 				status: 'updated',
 				team: 'team b'
 			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
+			data={{
+				title: 'Laboris non ut do tempor ipsum fugiat.',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'updated',
+				team: 'team b'
+			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
 		/>
 		<SideCard
-			data={{ title: 'Hello World', date: '2021-10-10', status: 'verified', team: 'team a' }}
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
+		/>
+		<SideCard
+			data={{
+				title: 'Hello World',
+				author: 'Steve Jobs',
+				date: '2021-10-10',
+				status: 'verified',
+				team: 'team a'
+			}}
 		/>
 	</div>
 </div>

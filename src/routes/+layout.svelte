@@ -8,7 +8,7 @@
 <div>
 	<div class="bg-neutral-900 text-neutral-300 flex max-h-screen">
 		<Nav />
-		<div class="flex mt-10">
+		<div class="flex mt-10 3xl:container mx-auto">
 			<SideNav />
 			<slot />
 		</div>

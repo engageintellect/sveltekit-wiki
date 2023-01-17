@@ -2,6 +2,7 @@
 	export let data = {
 		title: '',
 		team: '',
+		author: '',
 		date: '',
 		status: ''
 	};
@@ -13,10 +14,13 @@
 >
 	<div class="flex justify-between items-center">
 		<div class="capitalize overflow-ellipsis flex flex-col">
-			<div>
-				{data.title.slice(0, 30)}
+			<div class="font-bold">
+				{data.title.slice(0, 50)}
 			</div>
 
+			<div class="text-sm font-thin text-neutral-300">
+				{data.author}
+			</div>
 			<div class="text-sm font-thin text-neutral-500">
 				{data.team}
 			</div>

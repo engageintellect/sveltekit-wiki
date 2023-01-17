@@ -1,4 +1,8 @@
 <script lang="ts">
+	import Vote from '../lib/components/Vote.svelte';
+	import PageDetails from '../lib/components/PageDetails.svelte';
+	import PageActions from '../lib/components/PageActions.svelte';
+
 	export let data = {
 		title: '',
 		author: '',
@@ -7,55 +11,33 @@
 	};
 </script>
 
-<div
-	class="p-10 lg:max-w-[66%] xl:max-w-[75%] 2xl:max-w-[80%] overflow-scroll flex flex-col gap-4 bg-neutral-900"
->
+<div class="p-10 lg:max-w-[66%] xl:max-w-[75%] overflow-scroll flex flex-col gap-4 bg-neutral-900">
 	<div class="my-5">
 		<div class="text-5xl mb-5">{data.title || 'Page Title'}</div>
 
-		<div class="flex gap-2">
-			<div
-				class="w-full flex flex-col gap-2 p-2 bg-neutral-900 rounded-lg hover:bg-neutral-800/20 shadow-md"
-			>
-				<div class="text-lg"><a href="/">{data.author || 'John Smith'}</a></div>
-				<div class="text-md font-thin text-neutral-500">
-					<a href="/">{data.team || 'Team Name'}</a>
-				</div>
-
-				<div class="flex gap-2">
-					{#each data.tags || ['#hey', '#page', '#tags'] as tag}
-						<div class="text-md text-blue-400 gap-2 flex"><a href="/">{tag}</a></div>
-					{/each}
-				</div>
-			</div>
-			<div class="w-full p-2 bg-neutral-900 rounded-lg shadow-md hover:bg-neutral-800/20">
-				<div>yes</div>
-				<div>no</div>
-			</div>
-			<div class="w-full p-2 bg-neutral-900 rounded-lg shadow-md hover:bg-neutral-800/20">
-				hello
-			</div>
+		<div class="flex gap-2 sticky top-20">
+			<PageDetails {data} />
+			<Vote />
+			<PageActions />
 		</div>
 	</div>
 
-	<div class="text-4xl semibold">Heading</div>
+	<div class="text-4xl semibold">Introduction</div>
 	<div>
 		Incididunt ullamco et sit aliquip. Commodo minim nulla eiusmod nostrud aliquip excepteur ipsum
 		tempor dolore sunt duis. Do enim id veniam amet proident incididunt tempor ipsum ad. Id laboris
 		officia nulla laboris anim enim et et sunt. Deserunt sit excepteur amet deserunt aliqua amet
-		cillum ex reprehenderit. Nostrud labore nulla sint veniam ut. Et consectetur eiusmod ut laboris
-		Lorem proident amet nulla est. Voluptate qui consectetur culpa laborum amet. Ad labore
-		adipisicing tempor qui Lorem officia deserunt consequat. Sunt officia Lorem cupidatat incididunt
 		tempor. Sunt ea ut laboris tempor id ullamco voluptate. Ullamco nostrud eiusmod nostrud amet ad
-		tempor qui aliqua consectetur do do pariatur. Anim amet consequat deserunt veniam est eu eiusmod
-		enim. Culpa commodo magna cupidatat pariatur. Adipisicing ea ex eu labore ullamco incididunt
-		anim laboris ipsum esse duis pariatur. Ut commodo et enim aute quis qui sint. Minim officia
-		ullamco est enim incididunt laborum incididunt ullamco aliqua Lorem ea enim. Mollit enim tempor
-		id minim magna. Sunt aliqua minim nisi officia nostrud in enim ipsum tempor mollit est duis eu.
-		Proident fugiat laboris qui reprehenderit tempor aliquip nisi officia ad non occaecat quis est.
-		Dolor do deserunt ad fugiat sit laborum nulla culpa commodo anim do. Incididunt est adipisicing
-		eu ipsum eiusmod mollit duis fugiat proident enim dolor cupidatat officia minim. Incididunt
 		consequat excepteur
+	</div>
+
+	<div class="bg-neutral-800 p-4 rounded-lg shadow-md">
+		<ul>
+			<li>hi</li>
+			<li>hi</li>
+			<li>hi</li>
+			<li>hi</li>
+		</ul>
 	</div>
 
 	<div class="text-3xl semibold">Heading 2</div>
