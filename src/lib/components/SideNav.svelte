@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	import SideCard from './SideCard.svelte';
+	let name: string;
 </script>
 
 <div
@@ -11,8 +12,7 @@
 		>
 			<div class="w-10 h-10 bg-purple-700 rounded-full" />
 			<div>
-				<div>Name</div>
-				<div>Status</div>
+				<div class="capitalize">Welcome, {name || 'stranger'}!</div>
 			</div>
 
 			<div class="flex">
