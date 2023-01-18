@@ -11,7 +11,9 @@
 	};
 </script>
 
-<div class="p-10 lg:max-w-[66%] xl:max-w-[75%] overflow-scroll flex flex-col gap-4 bg-neutral-900">
+<div
+	class="p-10 lg:max-w-[66%] xl:max-w-[75%] overflow-scroll scrollbar-hide flex flex-col gap-4 bg-neutral-900"
+>
 	<div class="my-5">
 		<div class="text-5xl mb-5">{data.title || 'Page Title'}</div>
 
@@ -31,12 +33,12 @@
 		consequat excepteur
 	</div>
 
-	<div class="bg-neutral-800 p-4 rounded-lg shadow-md">
-		<ul>
-			<li>hi</li>
-			<li>hi</li>
-			<li>hi</li>
-			<li>hi</li>
+	<div class="bg-neutral-800 p-4 rounded-lg shadow-md list-disc">
+		<ul class="list-disc p-4">
+			<li>Introduction</li>
+			<li class="ml-4">Heading 2</li>
+			<li class="ml-8">Heading 3</li>
+			<li class="ml-8">Heading 3</li>
 		</ul>
 	</div>
 

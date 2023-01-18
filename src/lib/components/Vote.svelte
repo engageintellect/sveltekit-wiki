@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="w-full flex p-2 gap-2 items-center justify-center bg-neutral-900 rounded-lg shadow-md hover:bg-neutral-800/20"
+	class="w-full flex p-2 gap-2 border-[1px] border-neutral-800 items-center justify-center bg-neutral-900 rounded-lg shadow-md"
 >
 	<div
 		class="w-full h-full uppercase group  flex items-center justify-center transition-all duration-200 rounded-lg hover:bg-green-500/20 text-center active:scale-95"

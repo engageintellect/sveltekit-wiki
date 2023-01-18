@@ -12,7 +12,7 @@
 </script>
 
 <div
-	class="w-full p-2 bg-neutral-900 rounded-lg shadow-md hover:bg-neutral-800/20 flex items-center justify-center gap-2"
+	class="w-full p-2 bg-neutral-900 border-[1px] border-neutral-800 rounded-lg shadow-md flex items-center justify-center gap-2"
 >
 	<div
 		class="w-full group h-full flex items-center justify-center active:scale-95 hover:bg-blue-400/20 tansition-all duration-300 rounded-lg"

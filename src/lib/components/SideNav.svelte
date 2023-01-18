@@ -4,13 +4,13 @@
 </script>
 
 <div
-	class="hidden lg:flex w-[33%] bg-neutral-900 hover:bg-neutral-800 transition-colors duration-500 flex-col p-4 gap-2 overflow-scroll"
+	class="hidden lg:flex w-[33%] bg-neutral-900 hover:bg-neutral-800 transition-colors duration-500 flex-col p-4 gap-2 overflow-scroll scrollbar-hide"
 >
 	<div class="flex gap-2 flex-col">
 		<div
 			class="flex items-center justify-between p-2 bg-neutral-800 rounded-full gap-2 my-10 shadow-md"
 		>
-			<div class="w-10 h-10 bg-purple-700 rounded-full" />
+			<div class="w-10 h-10 bg-gradient-to-r from-purple-700 to-blue-500 shadow-md rounded-full" />
 			<div>
 				<div class="capitalize">Welcome, {name || 'stranger'}!</div>
 			</div>
